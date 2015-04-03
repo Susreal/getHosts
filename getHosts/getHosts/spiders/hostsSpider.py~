@@ -1,0 +1,23 @@
+from scrapy.spider import BaseSpider
+from scrapy.selector import HtmlXPathSelector
+import sys
+
+class getHostsSpider(BaseSpider):
+    name = "getGoogleHosts"
+    allowed_domains = ["levi.cg.am"]
+    start_urls = [ "http://levi.cg.am/test/hosts/rander/?d=11.18.2" ]    
+  
+    def parse(self, response):
+	reload(sys)                         # 2
+    	sys.setdefaultencoding('utf-8')     # 3
+        hxs = HtmlXPathSelector(response)
+        sites = hxs.xpath('//textarea')
+	count = 0
+        for site in sites:
+            if count == 0:#0--360kb,1--yadgen......detail-->http://levi.cg.am/test/hosts/rander/?d=11.18.2
+		hostsText = site.xpath('text()').extract()
+            	#print hostsText
+		filename = "hosts_new"
+        	open(filename, 'wb').write(hostsText[0])
+
+	    count = count + 1
