@@ -1,6 +1,5 @@
 # getHosts
-update hosts for Google and facebook in Ubuntu Kylin LTS 14.04 using scarpy and shell command
-
+update hosts for Google and facebook in Ubuntu Kylin LTS 14.04 using scarpy and shell command\n
 written by:Susreal at SJTU
 
 version:1.0
