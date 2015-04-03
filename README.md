@@ -4,11 +4,16 @@ written by:Susreal at SJTU
 version:1.0
 2015.04.02
 
-1.install scarpy for ubuntu[reference: http://www.linuxidc.com/Linux/2015-03/115306.htm ]
-2.add twisted[sudo apt-get install python-twisted]
-3.copy getHosts and updateHosts.sh to /home
+1.install scarpy tool for ubuntu
+    [reference: http://www.linuxidc.com/Linux/2015-03/115306.htm ]
+    a)pip package : sudo apt-get install python-pip
+    b)python dev : sudo apt-get install python-dev
+    c)SCRAPY : sudo pip install scrapy
+2.add twisted
+    [sudo apt-get install python-twisted]
+3.copy 'getHosts' and 'updateHosts.sh' to /home
 4.each time, just open the terminal and input:
-    sudo bash updateHosts.sh
+    <sudo bash updateHosts.sh>
     
 Then, you can google free!
 
