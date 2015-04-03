@@ -15,7 +15,7 @@ Version:1.0
     [sudo apt-get install python-twisted]
 3.copy 'getHosts' and 'updateHosts.sh' to /home
 4.each time, just open the terminal and input:
-    <sudo bash updateHosts.sh>
+    $sudo bash updateHosts.sh
     
 Then, you can google free!
 
