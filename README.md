@@ -7,6 +7,7 @@ update hosts for Google and facebook in Ubuntu Kylin LTS 14.04
 
 
 1.install `scarpy` tool for ubuntu
+
 reference: [http://www.linuxidc.com/Linux/2015-03/115306.htm](http://www.linuxidc.com/Linux/2015-03/115306.htm)
 > a)`pip` package : sudo apt-get install python-pip
 
