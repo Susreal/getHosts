@@ -22,8 +22,10 @@ reference: [http://www.linuxidc.com/Linux/2015-03/115306.htm](http://www.linuxid
 
 4.each time, just open the terminal and input:
 > `sudo bash updateHosts.sh`
-    
+
 Then, you can google free!
+
+Notic : This tool will backup your hosts to `getHost` and rename it `hosts_backup`, so if you don't like the result, you can replace the hosts easily.
 
 **If there are ANY OTHER USEFUL hosts settings, DONNOT use this tool!**
 
