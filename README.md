@@ -19,6 +19,7 @@ reference: [http://www.linuxidc.com/Linux/2015-03/115306.htm](http://www.linuxid
 > `sudo apt-get install python-twisted`
 
 3.copy 'getHosts' and 'updateHosts.sh' to /home
+
 4.each time, just open the terminal and input:
 > `sudo bash updateHosts.sh`
     
